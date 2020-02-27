@@ -57,6 +57,7 @@ header a {
   height: 3px;
   background: white;
   margin-bottom: 9px;
+  margin-right: 2rem;
 }
 
 
@@ -103,6 +104,10 @@ MEDIA QUERIES
   .nav-links li {
       padding: .5rem;
       opacity: 1;
+  }
+
+  .nav-links a {
+    color: white;
   }
 
   .burger {
