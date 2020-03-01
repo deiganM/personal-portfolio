@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
 
+/* #ed473f; */
+/* #002241; */
 /* - - - - - - - - - - - - - - - - - - - - - - - - 
 GENERAL
 - - - - - - - - - - - - - - - - - - - - - - - - */
@@ -10,8 +12,7 @@ GENERAL
 }
 
 body {
-  background: #ed473f;
-  color: #002241;
+  background: #fff;
 }
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - 
@@ -54,10 +55,12 @@ header a {
 .burger div {
   width: 25px;
   height: 3px;
-  background: white;
+  background: #002241;
   margin-bottom: 9px;
   margin-right: 2rem;
 }
+
+
 
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - 
@@ -66,10 +69,12 @@ MAIN CONTENT
 
 .name h1 {
   font-size: calc(20px + (40 - 20) * ((100vw - 300px) / (1600 - 300)));
+  color: #f63;
 }
 
 .name h2 {
   font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  color: #000;
 }
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - 
@@ -89,7 +94,7 @@ MEDIA QUERIES
       left: 100%;
       height: 100vh;
       top: 0;
-      background: #333;
+      background: #f63;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
@@ -109,10 +114,22 @@ MEDIA QUERIES
     color: white;
   }
 
+  .owl-logo {
+    height: 3rem;
+    width: 3rem;
+    margin-left: 2rem;
+   }
+
   .burger {
       display: block;
       cursor: pointer;
       z-index: 1;
+  }
+
+  .line1,
+  .line2,
+  .line3 {
+    color: #000;
   }
 
   .nav-active {
@@ -122,6 +139,7 @@ MEDIA QUERIES
   .close .line1 {
       transform: rotate(-45deg) translate(-8px,6px);
       margin-bottom: 17px;
+      background: white;
   }
 
   .close .line2 {
@@ -131,5 +149,6 @@ MEDIA QUERIES
   .close .line3 {
       transform: rotate(45deg) translate(-8px,-6px);
       margin-bottom: 0;
+      background: white;
   }
 }
