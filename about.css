@@ -61,28 +61,27 @@ header a {
   margin-right: 2rem;
 }
 
-
-
-
 /* - - - - - - - - - - - - - - - - - - - - - - - - 
 MAIN CONTENT
 - - - - - - - - - - - - - - - - - - - - - - - - */
 
-.name {
-  margin-top: 10rem;
-  margin-left: 2rem;
+.about {
+  margin: 2rem;
 }
 
-.name h1 {
+.about h1 {
   font-size: calc(30px + (40 - 30) * ((100vw - 300px) / (1600 - 300)));
   color: #f63;
   margin-bottom: 0;
 }
 
-.name h2 {
-  font-size: calc(15px + (26 - 15) * ((100vw - 300px) / (1600 - 300)));
-  color: #000;
-  font-weight: normal;
+p {
+
+}
+
+.chat {
+  text-decoration: none;
+  color: #f63;
 }
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - 
