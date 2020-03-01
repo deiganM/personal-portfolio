@@ -3,6 +3,7 @@
 /* - - - - - - - - - - - - - - - - - - - - - - - - 
 GENERAL
 - - - - - - - - - - - - - - - - - - - - - - - - */
+
 * {
   font-family: "Roboto", "Franklin Gothic Medium", Tahoma, sans-serif;
   box-sizing: border-box;
@@ -13,13 +14,12 @@ body {
   color: #002241;
 }
 
-
 /* - - - - - - - - - - - - - - - - - - - - - - - - 
 HEADER
 - - - - - - - - - - - - - - - - - - - - - - - - */
+
 header {
   height: 80px;
-  /* background: #333; */
 }
 
 header nav .wrapper {
@@ -28,7 +28,6 @@ header nav .wrapper {
   justify-content: space-between;
   height: 80px;
 }
-
 
 header ul {
   margin: 0;
@@ -64,13 +63,13 @@ header a {
 /* - - - - - - - - - - - - - - - - - - - - - - - - 
 MAIN CONTENT
 - - - - - - - - - - - - - - - - - - - - - - - - */
-.main-content {
-  padding: 80px 0;
+
+.name h1 {
+  font-size: calc(20px + (40 - 20) * ((100vw - 300px) / (1600 - 300)));
 }
 
-.main-content p {
-  font-size: 16px;
-  line-height: 1.6;
+.name h2 {
+  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - 
