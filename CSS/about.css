@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
 
-/* #ed473f; */
-/* #002241; */
+
 /* - - - - - - - - - - - - - - - - - - - - - - - - 
 GENERAL
 - - - - - - - - - - - - - - - - - - - - - - - - */
+
 
 * {
   font-family: "Roboto", "Franklin Gothic Medium", Tahoma, sans-serif;
@@ -16,9 +16,11 @@ body {
   height: 100vh;
 }
 
+
 /* - - - - - - - - - - - - - - - - - - - - - - - - 
 HEADER
 - - - - - - - - - - - - - - - - - - - - - - - - */
+
 
 header {
   height: 80px;
@@ -61,38 +63,42 @@ header a {
   margin-right: 2rem;
 }
 
+.owl-logo {
+  height: 3rem;
+  width: 3rem;
+  margin-left: 2rem;
+ }
 
+ .nav-links {
+   margin-right: 13rem;
+ }
 
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - 
 MAIN CONTENT
 - - - - - - - - - - - - - - - - - - - - - - - - */
 
-.name {
-  margin-top: 10rem;
-  margin-left: 2rem;
+
+.about {
+  margin: 2rem;
 }
 
-.name h1 {
+.about h1 {
   font-size: calc(30px + (40 - 30) * ((100vw - 300px) / (1600 - 300)));
   color: #f63;
   margin-bottom: 0;
 }
 
-.name h2 {
-  font-size: calc(15px + (26 - 15) * ((100vw - 300px) / (1600 - 300)));
-  color: #000;
-  font-weight: normal;
+.chat {
+  text-decoration: none;
+  color: #f63;
 }
-
-/* - - - - - - - - - - - - - - - - - - - - - - - - 
-FOOTER
-- - - - - - - - - - - - - - - - - - - - - - - - */
 
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - 
 MEDIA QUERIES
 - - - - - - - - - - - - - - - - - - - - - - - - */
+
 
 @media screen and (max-width:545px) {
 

@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
 
-/* #ed473f; */
-/* #002241; */
+
 /* - - - - - - - - - - - - - - - - - - - - - - - - 
 GENERAL
 - - - - - - - - - - - - - - - - - - - - - - - - */
+
 
 * {
   font-family: "Roboto", "Franklin Gothic Medium", Tahoma, sans-serif;
@@ -16,13 +16,11 @@ body {
   height: 100vh;
 }
 
-img {
-  display: block;
-}
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - 
 HEADER
 - - - - - - - - - - - - - - - - - - - - - - - - */
+
 
 header {
   height: 80px;
@@ -65,69 +63,44 @@ header a {
   margin-right: 2rem;
 }
 
+.owl-logo {
+  height: 3rem;
+  width: 3rem;
+  margin-left: 2rem;
+ }
 
+ .nav-links {
+   margin-right: 13rem;
+ }
 
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - 
 MAIN CONTENT
 - - - - - - - - - - - - - - - - - - - - - - - - */
 
-.work {
-  margin: 2rem;
+
+.name {
+  margin-top: 10rem;
+  margin-left: 2rem;
 }
 
-.work h1 {
-  font-size: calc(30px + (40 - 30) * ((100vw - 300px) / (1600 - 300)));
+.name h1 {
+  font-size: calc(30px + (80 - 30) * ((100vw - 300px) / (1600 - 300)));
   color: #f63;
-  margin: .5rem 0;
+  margin-bottom: 0;
 }
 
-/* - - - - - - - - - - - - - - - - - - - - - - - - 
-GALLERY
-- - - - - - - - - - - - - - - - - - - - - - - - */
-
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
+.name h2 {
+  font-size: calc(15px + (30 - 15) * ((100vw - 300px) / (1600 - 300)));
+  color: #000;
+  font-weight: normal;
 }
-
-.card {
-  height: 15rem;
-  width: 20rem;
-  background: #f3d0b74d;
-  margin: 2rem auto;
-  /* padding: 2rem; */
-  border: 1px solid black;
-  border-radius: 2px;
-}
-
-.card-img {
-  height: 60%;
-  width: 85%;
-  margin: 1rem auto;
-  border: 1px black solid;
-  border-radius: 5px;
-}
-
-.card-text {
-  text-align: center;
-  width: 80%;
-  margin: auto;
-}
-
-.card-text h3,
-p{
-  margin: 0;
-}
-
-/* - - - - - - - - - - - - - - - - - - - - - - - - 
-FOOTER
-- - - - - - - - - - - - - - - - - - - - - - - - */
 
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - 
 MEDIA QUERIES
 - - - - - - - - - - - - - - - - - - - - - - - - */
+
 
 @media screen and (max-width:545px) {
 
@@ -156,12 +129,6 @@ MEDIA QUERIES
   .nav-links a {
     color: white;
   }
-
-  .owl-logo {
-    height: 3rem;
-    width: 3rem;
-    margin-left: 2rem;
-   }
 
   .burger {
       display: block;
