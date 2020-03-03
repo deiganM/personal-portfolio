@@ -16,6 +16,10 @@ body {
   height: 100vh;
 }
 
+img {
+  display: block;
+}
+
 /* - - - - - - - - - - - - - - - - - - - - - - - - 
 HEADER
 - - - - - - - - - - - - - - - - - - - - - - - - */
@@ -61,23 +65,59 @@ header a {
   margin-right: 2rem;
 }
 
+
+
+
 /* - - - - - - - - - - - - - - - - - - - - - - - - 
 MAIN CONTENT
 - - - - - - - - - - - - - - - - - - - - - - - - */
 
-.about {
+.work {
   margin: 2rem;
 }
 
-.about h1 {
+.work h1 {
   font-size: calc(30px + (40 - 30) * ((100vw - 300px) / (1600 - 300)));
   color: #f63;
-  margin-bottom: 0;
+  margin: .5rem 0;
 }
 
-.chat {
-  text-decoration: none;
-  color: #f63;
+/* - - - - - - - - - - - - - - - - - - - - - - - - 
+GALLERY
+- - - - - - - - - - - - - - - - - - - - - - - - */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  height: 15rem;
+  width: 20rem;
+  background: #f3d0b74d;
+  margin: 2rem auto;
+  /* padding: 2rem; */
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.card-img {
+  height: 60%;
+  width: 85%;
+  margin: 1rem auto;
+  border: 1px black solid;
+  border-radius: 5px;
+}
+
+.card-text {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+.card-text h3,
+p{
+  margin: 0;
 }
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - 
