@@ -49,7 +49,7 @@ header li {
 }
 
 header a {
-  color: #002241;
+  color: #000;
   text-decoration: none;
 }
 
@@ -60,7 +60,7 @@ header a {
 .burger div {
   width: 25px;
   height: 3px;
-  background: #002241;
+  background: #000;
   margin-bottom: 9px;
   margin-right: 2rem;
 }

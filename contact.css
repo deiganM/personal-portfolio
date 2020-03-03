@@ -68,22 +68,36 @@ header a {
 MAIN CONTENT
 - - - - - - - - - - - - - - - - - - - - - - - - */
 
-.name {
-  margin-top: 10rem;
-  margin-left: 2rem;
+.contact {
+  margin: 2rem;
 }
 
-.name h1 {
+.contact h1 {
   font-size: calc(30px + (40 - 30) * ((100vw - 300px) / (1600 - 300)));
   color: #f63;
-  margin-bottom: 0;
 }
 
-.name h2 {
-  font-size: calc(15px + (26 - 15) * ((100vw - 300px) / (1600 - 300)));
-  color: #000;
-  font-weight: normal;
+.contact h3 {
+  margin-left: 1rem; 
 }
+
+.contact a {
+  text-decoration: none;
+  color: black;
+}
+
+.social {
+  display: flex;
+}
+
+.linkedIn {
+  display: flex;
+}
+
+.github {
+  display: flex;
+}
+
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - 
 FOOTER
